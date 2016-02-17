@@ -1,5 +1,5 @@
 # Site settings
-title: Your awesome title
+title: Seera Networks
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -18,6 +18,20 @@ permalink: "posts/:title"
 
 # Custom categories
 categories: [navbar]
+
+# Collections
+collections:
+  - partners
+  - categories
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "page"
 
 sass:
     style: :compressed
