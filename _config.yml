@@ -23,7 +23,6 @@ categories: [navbar]
 collections:
   - partners
   - categories
-    output: true
 
 defaults:
   -
